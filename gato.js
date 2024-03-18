@@ -1,9 +1,9 @@
 import {View, Text} from 'react-native';
 
-const Gato = () => {
+const Gato = ({nome}) => {
     return(
     <View>
-        <Text>Meu nome é Sérgio</Text>
+        <Text>Meu nome é {nome}</Text>
     </View>
     );
 }
