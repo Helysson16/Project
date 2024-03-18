@@ -6,10 +6,10 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Hello word, how are you now ?</Text>
-      <Gato nome="pedro"/>
-      <Gato nome="Fufy"/>
-      <Gato nome="Estelar"/>
-      <StatusBar style="auto" />
+      <Gato nome="pedro" idade={8}/>
+      <Gato nome="Fufy" idade={56}/>
+      <Gato nome="Estelar" idade={1000}/>
+      <StatusBar style="auto"/>
     </View>
   );
 }
