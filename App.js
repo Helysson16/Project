@@ -6,7 +6,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Hello word, how are you now ?</Text>
-      <Gato nome="pedro" idade={8}/>
+      <Gato nome="pedro" idade={1}/>
       <Gato nome="Fufy" idade={56}/>
       <Gato nome="Estelar" idade={1000}/>
       <StatusBar style="auto"/>
@@ -19,6 +19,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
 });
