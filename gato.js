@@ -1,16 +1,14 @@
-import {View, Text} from 'react-native';
+import {View, Text, TextInput} from 'react-native';
 
-const Gato = ({nome, idade}) => {
+const Gato = ({idade}) => {
     const texto = idade > 1 ? "anos" : "ano";
+    const [nome, setNome] = userState9("")
     
     return(
     <View>
-        <Text>
-            Nome: {nome};
-        </Text>
-        <Text>
-            Idade: {idade} {texto}.
-rrbrbgrgrbrbgrbgrbr        </Text>
+        <TextInput defaultValue={nome} onChangeText={(novoTexto => {setNome(novoTexto)})}/>
+        <Text>  Nome: {nome};</Text>
+        <Text>Idade: {idade} {texto}.</Text>
     </View>
     );
 }

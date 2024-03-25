@@ -7,9 +7,9 @@ function App() {
   return (
     <View style={styles.container}>
       <Text>Hello word, how are you now ?</Text>
-      <Gato nome="pedro" idade={1}/>
-      <Gato nome="Fufy" idade={56}/>
-      <Gato nome="Estelar" idade={1000}/>
+      <Gato  idade={1}/>
+      <Gato  idade={56}/>
+      <Gato idade={1000}/>
       <StatusBar style="auto"/>
     </View>
   );
