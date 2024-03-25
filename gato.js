@@ -10,7 +10,7 @@ const Gato = ({nome, idade}) => {
         </Text>
         <Text>
             Idade: {idade} {texto}.
-        </Text>
+rrbrbgrgrbrbgrbgrbr        </Text>
     </View>
     );
 }
